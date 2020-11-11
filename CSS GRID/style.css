@@ -33,6 +33,23 @@
 
 /* STOCK
 	
+	
+	(naming the grid lines)
+	.container {
+			
+			display: grid;
+			grid-template-columns:[start] 100px[line-2] 100px[line-3] 100px[end];
+			grid-template-rows: [start]100px [line-2]100px[end];	
+		}
+		
+		.cell-1 {
+			grid-column-start: start;
+			grid-column-end: end;
+			grid-row-start: start;
+			grid-row-end: end;
+		}
+	
+	
 	(grid-row-end/start-functions)
 	.cell-1 {
 			grid-row-start: 2;
