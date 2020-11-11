@@ -35,6 +35,32 @@
 	
 	
 	
+	(grid-template-areas and grid-areas)
+	grid-template-areas: 
+				"banner banner banner"
+				"sidebar content ads"
+				"footer footer footer"
+		
+		.cell-1 {
+			grid-area: banner;
+		}
+		
+		.cell-2 {
+			grid-area: sidebar;
+		}
+		
+		.cell-3 {
+			grid-area: content;
+		}
+		
+		.cell-4 {
+			grid-area: ads;
+		}
+		
+		.cell-5 {
+			grid-area: footer;
+		}
+	
 	
 	(orders)
 	.cell-1 {
