@@ -30,3 +30,46 @@
 .cell-6 {
 	background: #a40e4c;
 }
+
+/* STOCK
+	
+	(grid-row-end/start-functions)
+	.cell-1 {
+			grid-row-start: 2;
+			grid-row-end: 3;
+			grid-column-start: 2;
+			grid-column-end: 5;
+		}
+
+	(template-columns and rows-auto function)
+			min-height: 100vh;
+			grid-template-columns: 100px auto 100px;
+			grid-template-rows: 200px auto;
+		
+		
+	(template and display-grid)
+			display: grid;
+			grid-template-columns: 100px 200px;
+			grid-template-rows: 200px 100px 500px;
+				
+		
+*/
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
