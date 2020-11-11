@@ -1,0 +1,27 @@
+.cell {
+	font-size: 25px;
+	text-align: center;
+	border: 2px solid red;
+	color: white;
+	padding: 10px 0;
+}
+
+.cell-1 {
+	background: #e53d00;
+}
+
+.cell-2 {
+	background: #ffe900;
+}
+.cell-3 {
+	background: #2a6041;
+}
+.cell-4 {
+	background: #18206c;
+}
+.cell-5 {
+	background: #1b998b;
+}
+.cell-6 {
+	background: #a40e4c;
+}
