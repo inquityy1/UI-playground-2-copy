@@ -33,6 +33,20 @@
 
 /* STOCK
 	
+	
+	
+	
+	(orders)
+	.cell-1 {
+		order: 1;
+	}
+		
+	.cell-6 {
+		order: -1;
+	}
+	
+	
+	
 	(shortcuts)
 	/--grid-template: 100px 100px / 100px 100px auto;--/
 		grid-template-columns: 100px 100px auto;
