@@ -3,11 +3,8 @@
 	margin: 0;
 }
 
-@media screen and (min-width) {
-	
-}
-
-.container {
+@media screen and (min-width:576px) {
+	.container {
 	display: grid;
 	height: 100vh;
 	grid-template-columns: repeat(5, 1fr);
@@ -17,59 +14,60 @@
 	"one one four five five"
 	"six seven seven five five"
 	"six eight nine nine ten"
-}
+	}
 
-.item-1 {
-	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(meme2.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: white;
-	font-size: 60px;
-	grid-area: one;
-}
+	.item-1 {
+		background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(meme2.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: white;
+		font-size: 60px;
+		grid-area: one;
+	}
 
-.item-2 {
-	background: blue;
-	grid-area: two;
-}
+	.item-2 {
+		background: blue;
+		grid-area: two;
+	}
 
-.item-3 {
-	background: green;
-	grid-area: three;
-}
+	.item-3 {
+		background: green;
+		grid-area: three;
+	}
 
-.item-4 {
-	background: yellow;
-	grid-area: four;
-}
+	.item-4 {
+		background: yellow;
+		grid-area: four;
+	}
 
-.item-5 {
-	background: aqua;
-	grid-area: five;
-}
+	.item-5 {
+		background: aqua;
+		grid-area: five;
+	}
 
-.item-6 {
-	background: black;
-	grid-area: six;
-	color: white;
-}
+	.item-6 {
+		background: black;
+		grid-area: six;
+		color: white;
+	}
 
-.item-7 {
-	background: darkgoldenrod;
-	grid-area: seven;
-}
+	.item-7 {
+		background: darkgoldenrod;
+		grid-area: seven;
+	}
 
-.item-8 {
-	background: coral;
-	grid-area: eight;
-}
+	.item-8 {
+		background: coral;
+		grid-area: eight;
+	}
 
-.item-9 {
-	background: cornflowerblue;
-	grid-area: nine;
-}
+	.item-9 {
+		background: cornflowerblue;
+		grid-area: nine;
+	}
 
-.item-10 {
-	background: chocolate;
-	grid-area: ten;
+	.item-10 {
+		background: chocolate;
+		grid-area: ten;
+	}
 }
