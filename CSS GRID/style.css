@@ -33,6 +33,16 @@
 
 /* STOCK
 	
+	(shortcuts)
+	/--grid-template: 100px 100px / 100px 100px auto;--/
+		grid-template-columns: 100px 100px auto;
+		grid-template-rows: 100px 100px;
+			
+	/--grid-gap: 20px 10px;--/
+		grid-column-gap: 10px;
+		grid-row-gap: 20px;
+			
+	
 	
 	(naming the grid lines)
 	.container {
@@ -50,6 +60,7 @@
 		}
 	
 	
+	
 	(grid-row-end/start-functions)
 	.cell-1 {
 			grid-row-start: 2;
@@ -58,10 +69,13 @@
 			grid-column-end: 5;
 		}
 
+
+
 	(template-columns and rows-auto function)
 			min-height: 100vh;
 			grid-template-columns: 100px auto 100px;
 			grid-template-rows: 200px auto;
+		
 		
 		
 	(template and display-grid)
