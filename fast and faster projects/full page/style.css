@@ -9,6 +9,7 @@ body {
 
 nav ul {
 	list-style-type: none;
+	display: none;
 }
 
 nav ul a {
@@ -31,3 +32,50 @@ nav ul a:hover {
 .nav-container img {
 	width: 100px;
 }
+
+.nav-container {
+	padding: 0 20px;
+	background: #9b8f8f;
+	border-bottom: 3px solid #ad343e;
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+}
+
+.bar {
+	width: 30px;
+	height: 3px;
+	margin: 7px;
+	background: #ad343e;
+}
+
+.btn {
+	padding: 2px;
+	display: inline-block;
+	border: 2px solid #ad343e;
+	align-self: center;
+}
+
+header {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
