@@ -356,10 +356,49 @@ form textarea {
 	border: 3px solid #ad343e;
 }
 
+input::placeholder,
+textarea::placeholder {
+	text-transform: uppercase;
+	color: #0d1317;
+}
 
+.form-btn {
+	margin: 20px;
+	font-size: 20px;
+	border-radius: 40px;
+	padding: 5px;
+	background: #ad343e;
+	color: #f5f3f5;
+	transition: color 1s ease-in-out,background 1s ease-in-out;
+}
+
+.form-btn:hover {
+	color: #ad343e;
+	background: #f5f3f5;
+}
 
 /* footer */
 
+footer {
+	background: #0d1317;
+	padding: 60px 0;
+	text-align: center;
+}
+
+.footer-icons a {
+	display: inline-block;
+	font-size: 30px;
+	margin: 0 10px 20px;
+	padding: 2px 5px;
+	border-radius: 5px;
+	background: #f5f3f5;
+	color: #0d1317;
+}
+
+footer p {
+	color: #f5f3f5;
+	font-size: 20px;
+}
 
 
 
