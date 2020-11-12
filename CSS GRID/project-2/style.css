@@ -88,7 +88,24 @@ body {
 
 @media screen and (min-width:776px) {
 	.container {
-		
+		grid-template-columns: auto 1fr auto;
+		grid-template-rows: 75px 1fr 50px;
+		grid-template-areas:
+			"header header header"
+			"navbar content aside"
+			"footer footer footer"
+	}
+	
+	#header {
+		grid-area: header;
+	}
+	
+	#nav {
+		grid-area: navbar;
+	}
+	
+	#content {
+		grid-area: content;
 	}
 }
 
