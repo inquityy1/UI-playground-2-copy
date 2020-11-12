@@ -32,6 +32,23 @@
 
 /* STOCK
 	
+	
+	(justify-items and align items and justify-self and align-self)
+	/*justify-items: flex-end;
+			justify-items: flex-start;
+			justify-items: stretch;
+			align-items: flex-start;
+			align-items: flex-end;
+			align-items: stretch;
+	}
+		
+	.cell-1 {
+			justify-self: center;
+			align-self: center;
+	}
+	
+	
+	
 	(minmax function)
 	.container {
 			height: 100vh;
