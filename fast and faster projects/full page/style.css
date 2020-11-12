@@ -119,6 +119,38 @@ nav {
 	transform: translateY(-10px);
 }
 
+@media screen and (min-width: 776px) {
+	.nav-container {
+		display: none;
+	}
+	
+	nav ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		background: rgba(13,19,23,0.8);
+	}
+	
+	nav ul a {
+		background: transparent;
+	}
+	
+	nav ul a:hover {
+		background: transparent;
+		padding-left: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
