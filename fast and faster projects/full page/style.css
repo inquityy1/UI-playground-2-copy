@@ -293,7 +293,27 @@ nav {
 	margin: 20px 0;
 }
 
+.about-card p {
+	line-height: 2;
+}
 
+@media screen and (min-width:776px) {
+	.about-card {
+		max-width: 50%;
+		border-radius: 30px;
+	}
+	
+	.about-card p {
+		max-width: 70%;
+		margin: 0 auto;
+	}
+}
+
+/* filler */
+.filler {
+	min-height: 60vh;
+	background: url(img/filler-bcg.jpeg) center/cover fixed no-repeat;
+}
 
 
 
