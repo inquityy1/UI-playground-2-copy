@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Mukta Mahee', sans-serif;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul a {
+	display: block;
+	background: #0d1317;
+	padding: 20px;
+	font-size: 17px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ad343e;
+	transition: color 1s ease, background 1s ease, padding 1s ease;
+}
+
+nav ul a:hover {
+	color: #e0e0ce;
+	background: #474747;
+	padding-left: 30px;
+}
+
+.nav-container img {
+	width: 100px;
+}
