@@ -33,6 +33,13 @@
 /* STOCK
 	
 	
+	(ruler of the own destiny--grid-auto-rows/columns function)
+	grid-template: 100px 100px / 100px 100px 100px;
+	grid-auto-rows: 200px;
+	grid-auto-columns: 10px;
+	
+	
+	
 	(shortcuts for grid-column/row + span)
 	.cell-1 {
 			grid-column: 1/3;
