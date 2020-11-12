@@ -69,6 +69,9 @@ header {
 
 nav {
 	flex: 0 0 auto;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
 }
 
 .banner {
@@ -105,8 +108,16 @@ nav {
 	font-size: 30px;
 	background: #474747;
 	padding: 5px 10px;
+	margin: 0 10px;
+	border-radius: 50%;
+	color: #f5f3f5;
+	transition: color 1s ease, transform 1s ease;
 }
 
+.banner-icons a:hover {
+	color: #ad343e;
+	transform: translateY(-10px);
+}
 
 
 
