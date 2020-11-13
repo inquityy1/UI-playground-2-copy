@@ -21,10 +21,6 @@ nav {
 	flex: 0 0 auto;
 }
 
-#banner {
-	flex: 1 0 auto;
-}
-
 nav ul {
 	list-style-type: none;
 }
@@ -142,7 +138,29 @@ nav ul li a:hover {
 	}
 }
 
+/* banner */
 
+#banner {
+	background: url(images/banner-img.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1 0 auto;
+}
+
+#banner-box {
+	color: #f5f5f5;
+	text-align: center;
+}
+
+#banner-title {
+	text-transform: capitalize;
+	font-size: 60px;
+}
 
 
 
