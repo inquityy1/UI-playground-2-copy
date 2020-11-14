@@ -329,6 +329,7 @@ nav ul li a:hover {
 
 /* responsive about */
 
+/*
 @media screen and (min-width:776px) {
 	#about {
 		display: flex;
@@ -342,6 +343,19 @@ nav ul li a:hover {
 	#about-video {
 		min-height: 40vh;
 		flex: 0 1 40%;
+	}
+}
+*/
+
+@media screen and (min-width:776px) {
+	#about{
+		display: grid;
+		grid-template-columns: 60% 40%;
+	}
+	
+	#about-text,
+	#about-video {
+		min-height: 40vh;
 	}
 }
 
