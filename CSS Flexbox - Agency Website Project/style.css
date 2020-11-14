@@ -529,6 +529,7 @@ nav ul li a:hover {
 
 /* portfolio responsive */
 
+/*
 @media screen and (min-width:576px) {
 	.portfolio-center {
 		display: flex;
@@ -545,6 +546,23 @@ nav ul li a:hover {
 		flex: 0 0 calc(33.3% - 15px);
 	}
 }
+*/
+
+@media screen and (min-width:576px) {
+	.portfolio-center {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 1em;
+	}
+}
+
+@media screen and (min-width:992px) {
+	.portfolio-center {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+
 
 
 
