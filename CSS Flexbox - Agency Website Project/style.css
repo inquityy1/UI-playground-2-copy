@@ -327,6 +327,24 @@ nav ul li a:hover {
 	border: 2px solid #f5f5f5;
 }
 
+/* responsive about */
+
+@media screen and (min-width:776px) {
+	#about {
+		display: flex;
+	}
+	
+	#about-text {
+		min-height: 40vh;
+		flex: 0 0 60%;
+	}
+	
+	#about-video {
+		min-height: 40vh;
+		flex: 0 1 40%;
+	}
+}
+
 
 
 
