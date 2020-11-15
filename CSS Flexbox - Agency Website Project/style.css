@@ -764,6 +764,7 @@ nav ul li a:hover {
 
 /* customer responsive */
 
+/*
 @media screen and (min-width:576px) {
 	.customers-center {
 		display: flex;
@@ -775,7 +776,15 @@ nav ul li a:hover {
 		flex: 1 1 calc(33.3% - 1em);
 	}
 }
+*/
 
+@media screen and (min-width:776px) {
+	.customers-center {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-column-gap: 1em;
+	}
+}
 
 
 
